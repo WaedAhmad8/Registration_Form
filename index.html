@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registration Form</title>
+
+</head>
+
+<body>
+
+    <h1>Create Your Account</h1>
+
+    <form action="#" method="post">
+
+        <fieldset>
+
+            <legend>Personal Information</legend>
+
+            <div>
+
+                <label for="fullName">Full Name:</label>
+
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+
+            </div>
+
+            <br>
+
+            <div>
+
+                <label for="email">Email Address:</label>
+
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            </div>
+
+            <br>
+
+            <div>
+
+                <label for="password">Password:</label>
+
+                <input type="password" id="password" name="password" placeholder="Enter your password" minlength="8"
+                    required>
+
+            </div>
+
+            <br>
+
+            <div>
+
+                <label for="birthDate">Date of Birth:</label>
+
+                <input type="date" id="birthDate" name="birthDate" required>
+
+            </div>
+
+        </fieldset>
+
+
+        <br>
+
+
+        <fieldset>
+
+            <legend>Additional Information</legend>
+
+            <div>
+
+                <label for="country">Country:</label>
+
+                <select id="country" name="country" required>
+
+                    <option value="Palestine">Palestine</option>
+                    <option value="Jordan">Jordan</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Saudi Arabia">Saudi Arabia</option>
+                    <option value="Other">Other</option>
+
+                </select>
+
+            </div>
+
+            <br>
+
+            <div>
+
+                <p>Gender:</p>
+
+                <input type="radio" id="female" name="gender" value="female" required>
+
+                <label for="female">Female</label>
+
+
+                <input type="radio" id="male" name="gender" value="male">
+
+                <label for="male">Male</label>
+
+            </div>
+
+            <br>
+
+            <div>
+
+                <p>Hobbies:</p>
+
+                <input type="checkbox" id="reading" name="hobbies" value="Reading">
+
+                <label for="reading">Reading</label>
+
+
+                <input type="checkbox" id="sports" name="hobbies" value="Sports">
+
+                <label for="sports">Sports</label>
+
+
+                <input type="checkbox" id="coding" name="hobbies" value="Coding">
+
+                <label for="coding">Coding</label>
+
+
+                <input type="checkbox" id="traveling" name="hobbies" value="Traveling">
+
+                <label for="traveling">Traveling</label>
+
+            </div>
+
+            <br>
+
+            <div>
+
+                <label for="experience">
+                    Experience Level:
+                </label>
+
+                <input type="range" id="experience" name="experience" min="1" max="10" value="5">
+
+            </div>
+
+        </fieldset>
+
+
+        <br>
+
+
+        <fieldset>
+
+            <legend>Profile Information</legend>
+
+            <div>
+
+                <label for="profilePicture">
+                    Upload Profile Picture:
+                </label>
+
+                <input type="file" id="profilePicture" name="profilePicture" required>
+
+            </div>
+
+            <br>
+
+            <div>
+
+                <label for="aboutMe">About Me:</label>
+
+                <br>
+
+                <textarea id="aboutMe" name="aboutMe" rows="5" cols="40" placeholder="Write something about yourself..."
+                    required></textarea>
+
+            </div>
+
+        </fieldset>
+
+
+        <br>
+
+
+        <div>
+
+            <button type="submit">
+                Register
+            </button>
+
+            <button type="reset">
+                Reset
+            </button>
+
+        </div>
+
+    </form>
+
+</body>
+
+</html>
